@@ -1,6 +1,9 @@
 ## COCO数据集制作
 针对 [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) 制作的RLE转COCO数据集转换工具
 
+1. airbus提供的数据是RLE格式的，将其转化为COCO数据集格式(.json)
+
+2. 数据集中存在大量的负样本，将其删除，只保留存在正样本的图片
 
 ## 文件结构
 
