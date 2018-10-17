@@ -27,7 +27,7 @@
 
 2、安装pycococreator
 
-下面给出的不一定最新，可参见[项目Github](https://github.com/waspinator/pycococreator)
+下面给出的安装命令不一定是最新的，具体可参见[项目Github](https://github.com/waspinator/pycococreator)
 
 
     pip install git+git://github.com/waspinator/pycococreator.git@0.2.0
