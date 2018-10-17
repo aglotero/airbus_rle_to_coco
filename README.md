@@ -44,3 +44,13 @@ This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www
 3、install pandas
 
     pip install pandas
+
+
+
+## step
+
+1. run  0_airbus_delete_empty_im.py
+
+2. run  0_csv_show_RLE.py, which can help you look into dataset
+3. run  1_ships_to_coco.py, whicn make coco dataset
+4. run  2_pycoco_API_Demo.ipynb to see the dataset
