@@ -1,4 +1,4 @@
-## Make COCO Dateset
+## 制作COCO数据集
 
 本代码是针对Kaggle比赛 [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) 制作的RLE-->COCO 数据集转换工具;
 
@@ -8,7 +8,7 @@
 2. airbus提供的数据是RLE格式的，将其转化为COCO数据集格式，得到标准的.json标注文件
 3. 筛选出不好的标注文件
 
-
+## Make COCO Dateset
 
 This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform RLE to coco dataset. It has 3 main functions:
 
