@@ -53,7 +53,7 @@ This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www
 
     pip install git+git://github.com/waspinator/pycococreator.git@0.2.0
 
-3、install pandas
+3、install pandas and something others
 
     pip install pandas
 
