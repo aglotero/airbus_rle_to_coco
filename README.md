@@ -10,7 +10,7 @@
 
 ## Make COCO Dateset
 
-This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform RLE into coco dataset. It has 3 main functions:
+This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform RLE into COCO annotations. It has 3 main functions:
 
 1. Delete useless images without ships;
 2. Transform RLE into COCO annotations;
@@ -28,13 +28,13 @@ This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www
     │  │  ├─ 000e6378b.jpg
     │  │  └─ xxx.jpg
     │  │
-    │  └─train_ship_segmentations_v2.csv		# annotations in rle style
+    │  └─train_ship_segmentations_v2.csv        # annotations in RLE style
     │
     ├─airbus_rle_to_coco                        # here we are
     │  ├─ 0_airbus_delete_empty_im.py           # delete images without ships
-    │  ├─ 0_csv_show_RLE.py                     # show annotations in rle style
-    │  ├─ 1_ships_to_coco.py                    # turn rle into coco
-    │  └─ 2_pycoco_API_Demo.ipynb               # show annotations in coco style 
+    │  ├─ 0_csv_show_RLE.py                     # show annotations in RLE style
+    │  ├─ 1_ships_to_coco.py                    # turn RLE into COCO
+    │  └─ 2_pycoco_API_Demo.ipynb               # show annotations in COCO style 
     │
     └─tmp                                       # bad annotations
 
@@ -61,12 +61,12 @@ This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www
 
 ## Step
 
-1. run  0_airbus_delete_empty_im.py
+1. run  0_airbus_delete_empty_im.py, which can delete empty images without ships
 
-2. run  0_csv_show_RLE.py, which can help you look into dataset
+2. run  0_csv_show_RLE.py, which can show dataset in RLE style
 
-3. run  1_ships_to_coco.py, which makes json file. Here is a finished one:  
+3. run  1_ships_to_coco.py, which generates .json file. Here is a finished one:  
 
    [instances_ships_train2018.json](https://storage.googleapis.com/kaggle-forum-message-attachments/inbox/1998668/159ec0e9b79f7eae65826a1a3377e970/instances_ships_train2018.zip)
 
-4. run  2_pycoco_API_Demo.ipynb to view the json file generated
+4. run  2_pycoco_API_Demo.ipynb, which can show dataset in COCO style
