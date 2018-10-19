@@ -1,25 +1,50 @@
-## 制作COCO数据集
 
-本代码是针对Kaggle比赛 [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) 制作的RLE-->COCO 数据集转换工具;
-
-主要有以下几个功能：
-
-1. 数据集中存在大量的负样本，将其删除，只保留存在实例的图片
-2. airbus提供的数据是RLE格式的，将其转化为COCO数据集格式，得到标准的.json标注文件
-3. 筛选出不好的标注文件
 
 ## Make COCO Dateset
 
-This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform RLE into COCO annotations. It has 3 main functions:
-
-1. Delete useless images without ships;
-
-2. Transform RLE into COCO annotations;
-
-3. Store bad annotations into folder ../tmp/bad_anns;
-
+This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform RLE into COCO annotations. 
 
 ![dataset annotation](https://github.com/pascal1129/airbus_rle_to_coco/blob/master/image/result.png)
+
+It has 3 main functions:
+
+1. Delete useless images without ships;
+2. Find bad annotations and save them in the folder (../tmp/bad_anns);
+3. Transform RLE into COCO annotations;
+
+```
+        {
+            "id": 27614,
+            "image_id": 14332,
+            "category_id": 1,
+            "iscrowd": 0,
+            "area": 3307,
+            "bbox": [
+                168.0,
+                65.0,
+                170.0,
+                24.0
+            ],
+            "segmentation": [
+                [
+                    189.0,
+                    88.5,
+                    168.0,
+                    88.5,
+                    167.5,
+                    70.0,
+                    336.5,
+                    65.0,
+                    337.0,
+                    84.5,
+                    189.0,
+                    88.5
+                ]
+            ],
+            "width": 768,
+            "height": 768
+        },
+```
 
 
 
