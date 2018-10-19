@@ -13,8 +13,15 @@
 This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform RLE into COCO annotations. It has 3 main functions:
 
 1. Delete useless images without ships;
+
 2. Transform RLE into COCO annotations;
+
 3. Store bad annotations into folder ../tmp/bad_anns;
+
+
+![dataset annotation](https://github.com/pascal1129/airbus_rle_to_coco/blob/master/image/result.png)
+
+
 
 ## File structure
 
