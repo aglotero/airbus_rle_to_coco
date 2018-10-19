@@ -2,7 +2,7 @@
 
 ## Make COCO Dateset
 
-This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform RLE into COCO annotations. 
+This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform [RLE](https://www.kaggle.com/paulorzp/run-length-encode-and-decode) into [COCO](http://cocodataset.org/#format-data) annotations. 
 
 ![dataset annotation](https://github.com/pascal1129/airbus_rle_to_coco/blob/master/image/result.png)
 
