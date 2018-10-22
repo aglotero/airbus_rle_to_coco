@@ -4,7 +4,7 @@
 
 This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform [RLE](https://www.kaggle.com/paulorzp/run-length-encode-and-decode) into [COCO](http://cocodataset.org/#format-data) annotations. 
 
-![dataset annotation](https://github.com/pascal1129/airbus_rle_to_coco/blob/master/image/result.png)
+![dataset annotation](https://github.com/pascal1129/airbus_rle_to_coco/blob/master/image/coco_annotation.png)
 
 It has 3 main functions:
 
@@ -102,3 +102,11 @@ It has 3 main functions:
    [instances_ships_train2018.json](https://storage.googleapis.com/kaggle-forum-message-attachments/inbox/1998668/159ec0e9b79f7eae65826a1a3377e970/instances_ships_train2018.zip)
 
 4. run  2_pycoco_API_Demo.ipynb, which can show dataset in COCO style
+
+
+
+## Train with Detectron
+
+![result1](https://github.com/pascal1129/airbus_rle_to_coco/blob/master/image/train_result_1.jpg)
+
+![result1](https://github.com/pascal1129/airbus_rle_to_coco/blob/master/image/train_result_2.jpg)
